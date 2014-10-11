@@ -24,7 +24,7 @@ Each program works on a single column of data. For most programs, you specify th
 
 ``` bash
 $ echo $'1 2\n1 2\n1 2' | awk -v col=2 -f sum.awk
-# 4
+# 6
 ```
 
 instructs `sum.awk` to sum over the second column.
@@ -76,7 +76,7 @@ Compute the arithmetic mean.
 
 ``` bash
 $ echo $'5\n2\n8' | awk -v col=1 -f mean.awk
-# 7.5
+# 5
 ```
 
 
