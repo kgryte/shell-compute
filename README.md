@@ -45,7 +45,7 @@ $ echo $'1\n2\n4' | awk -f count.awk
 
 #### min
 
-Compute the minimum value.  The `col` parameter specifies the column over which to compute the minimum value.
+Compute the minimum value.
 
 ``` bash
 $ echo $'5\n2\n8' | awk -v col=1 -f min.awk
@@ -54,7 +54,7 @@ $ echo $'5\n2\n8' | awk -v col=1 -f min.awk
 
 #### max
 
-Compute the maximum value. The `col` parameter specifies the column over which to compute the maximum value.
+Compute the maximum value.
 
 ``` bash
 $ echo $'5\n2\n8' | awk -v col=1 -f max.awk
@@ -63,7 +63,7 @@ $ echo $'5\n2\n8' | awk -v col=1 -f max.awk
 
 #### sum
 
-Compute the sum. The `col` parameter specifies the column over which to compute the sum.
+Compute the sum.
 
 ``` bash
 $ echo $'1\n2\n3' | awk -v col=1 -f sum.awk
@@ -72,7 +72,7 @@ $ echo $'1\n2\n3' | awk -v col=1 -f sum.awk
 
 #### mean
 
-Compute the arithmetic mean.  The `col` parameter specifies the column over which to compute the mean.
+Compute the arithmetic mean.
 
 ``` bash
 $ echo $'5\n2\n8' | awk -v col=1 -f mean.awk
@@ -82,7 +82,7 @@ $ echo $'5\n2\n8' | awk -v col=1 -f mean.awk
 
 #### median
 
-Compute the median.  The `col` parameter specifies the column over which to compute the median.
+Compute the median.
 
 ``` bash
 $ echo $'5\n2\n8\n6' | sort -n | awk -v col=1 -f median.awk
