@@ -23,7 +23,7 @@ $ command | awk -f <script_name>
 Each program works on a single column of data. For most programs, you specify the column over which to perform the computation by passing a `col` parameter. For example,
 
 ``` bash
-$ echo $'1 2\n1 2\n1 2' | awk -v col=2 sum.awk
+$ echo $'1 2\n1 2\n1 2' | awk -v col=2 -f sum.awk
 # 4
 ```
 
