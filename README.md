@@ -1,7 +1,7 @@
 shell-compute
 ===========
 
-> Collection of shell scripts for numerical computation.
+> Collection of shell scripts for computation.
 
 
 ## Usage
