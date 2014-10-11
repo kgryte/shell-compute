@@ -9,13 +9,13 @@ shell-compute
 To use a script, you can either stream a file
 
 ``` bash
-$ awk -f &lt;script&gt; <file>
+$ awk -f <script_name> <file>
 ```
 
 or pipe output from a `command`
 
 ```
-$ command | awk -f &t;script&gt;
+$ command | awk -f <script_name>
 ```
 
 ## Notes
