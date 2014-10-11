@@ -1,12 +1,12 @@
 shell-compute
 ===========
 
-> Collection of shell scripts for computation.
+> Collection of shell scripts for numerical computation.
 
 
 ## Usage
 
-To use a script, you can either stream a file
+To use a script, you can either stream a data file
 
 ``` bash
 $ awk -f <script_name> <file>
