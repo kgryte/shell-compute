@@ -14,7 +14,7 @@ $ awk -f <script_name> <file>
 
 or pipe output from a `command`
 
-```
+``` bash
 $ command | awk -f <script_name>
 ```
 
