@@ -89,6 +89,8 @@ $ echo $'5\n2\n8\n6' | sort -n | awk -v col=1 -f median.awk
 # 5.5
 ```
 
+Note: the values over which to compute the median should be __sorted__.
+
 
 ## Examples
 
